@@ -4,32 +4,36 @@ import javax.swing.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class AuthView {
-    private JTextField textField1;
-    private JTextField textField2;
-    private JButton entrarButton;
+public class AuthView extends JFrame {
+    private JTextField TextFieldUsername;
+    private JTextField textFieldPassword;
+    private JButton BtnEntrar;
     public JPanel panel1;
 
     public AuthView() {
-        entrarButton.addMouseListener(new MouseAdapter() {
+        setTitle("Gaia Inventory");
+        setContentPane(panel1);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
+        pack();
+        BtnEntrar.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                String Username = textField1.getText();
-                String Password = textField2.getText();
+                String Username = TextFieldUsername.getText();
+                String Password = textFieldPassword.getText();
                 if (Username.equals("admin") && Password.equals("admin")) {
-                    JFrame frame = new JFrame("MainView");
-                    frame.setContentPane(new MainView().panel1);
-                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                    frame.setVisible(true);
-                    frame.pack();
+                    MainView mainView = new MainView();
 
-                    AuthView.this.panel1.setVisible(false);
+                    dispose();
+
                 } else {
-                    JOptionPane.showMessageDialog(null, "Usuario o contraseña incorrectos");
+                    JOptionPane.showMessageDialog(null, "Usuario o contraseña incorrectos, intente de nuevo");
                 }
 
             }
+
         });
     }
 
