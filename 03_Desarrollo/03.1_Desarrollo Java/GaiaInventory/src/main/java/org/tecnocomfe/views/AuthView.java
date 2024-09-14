@@ -8,7 +8,7 @@ public class AuthView extends JFrame {
     private JTextField TextFieldUsername;
     private JTextField textFieldPassword;
     private JButton BtnEntrar;
-    public JPanel panel1;
+    private JPanel panel1;
 
     public AuthView() {
         setTitle("Gaia Inventory");

@@ -8,7 +8,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class MainView extends JFrame {
-    public JPanel panel1;
+    private JPanel panel1;
     private JPanel panelContainer;
     private JButton BtnReportes;
     private JButton BtnMovimientos;
