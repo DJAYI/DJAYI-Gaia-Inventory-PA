@@ -5,10 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d73c966-bb20-4432-8f78-a6819c6a24b2" name="Changes" comment="(feat: Gaia Inventory Swing Interface)">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/AuthView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/AuthView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/categorias/dialogs/DeleteCateogoryDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/categorias/dialogs/DeleteCateogoryDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/reportes/dialogs/DialogGenerateReporte.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/reportes/dialogs/DialogGenerateReporte.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/reportes/dialogs/DialogGenerateReporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/reportes/dialogs/DialogGenerateReporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/categorias/GestionCategoriaView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/categorias/GestionCategoriaView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/categorias/GestionCategoriaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tecnocomfe/views/categorias/GestionCategoriaView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/MainView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/MainView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/GestionCategoriaView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/GestionCategoriaView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/CreateCategoryDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/dialogs/EditCategoryDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/SubcategoriasView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/SubcategoriasView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/CreateSubcategoryDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/dialogs/EditCategoryDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/SubcategoriaProductosView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/SubcategoriaProductosView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/AddSubcategoryProductsDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/categorias/subcategorias/productos/dialogs/DeleteSubcategoryProductsDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/reportes/panelReportesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tecnocomfe/views/reportes/panelReportesView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +72,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AuthView.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EditCategoryDialog.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;262&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;364&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/OneDrive/Documents/PROYECTO DE AULA/Inventario KARDEX/PA Inventario (Noche)/03_Desarrollo/03.1_Desarrollo Java/GaiaInventory/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/danil/OneDrive/Documents/PROYECTO DE AULA/Inventario KARDEX/PA Inventario (Noche)/03_Desarrollo/03.1_Desarrollo Java/GaiaInventory/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthView.executor": "Run",
+    "Application.EditCategoryDialog.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "262",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "364",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/danil/OneDrive/Documents/PROYECTO DE AULA/Inventario KARDEX/PA Inventario (Noche)/03_Desarrollo/03.1_Desarrollo Java/GaiaInventory/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/danil/OneDrive/Documents/PROYECTO DE AULA/Inventario KARDEX/PA Inventario (Noche)/03_Desarrollo/03.1_Desarrollo Java/GaiaInventory/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danil\OneDrive\Documents\PROYECTO DE AULA\Inventario KARDEX\PA Inventario (Noche)\03_Desarrollo\03.1_Desarrollo Java\GaiaInventory\src\main\resources" />
@@ -137,6 +176,7 @@
       <workItem from="1726169656409" duration="1600000" />
       <workItem from="1726245060854" duration="1901000" />
       <workItem from="1726272901142" duration="334000" />
+      <workItem from="1726327150480" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="(feat: Gaia Inventory Swing Interface)">
       <option name="closed" value="true" />

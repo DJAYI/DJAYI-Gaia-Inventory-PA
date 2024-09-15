@@ -1,5 +1,6 @@
 package org.tecnocomfe.views;
 
+import org.tecnocomfe.views.categorias.GestionCategoriaView;
 import org.tecnocomfe.views.reportes.panelReportesView;
 
 import javax.swing.*;
@@ -31,6 +32,7 @@ public class MainView extends JFrame {
         cardLayout = new CardLayout();
         PanelDashboard.setLayout(cardLayout);
         panelReportesView panelReportesView = new panelReportesView();
+        GestionCategoriaView gestionCategoriaView = new GestionCategoriaView();
 
         setResizable(false);
 
@@ -47,8 +49,7 @@ public class MainView extends JFrame {
         JPanel panelProductos = new JPanel();
         panelProductos.add(new JLabel("Productos"));
 
-        JPanel panelCategorias = new JPanel();
-        panelCategorias.add(new JLabel("Categorias"));
+        JPanel panelCategorias = gestionCategoriaView.panelCategorias;
 
         JPanel panelUsuarios = new JPanel();
         panelUsuarios.add(new JLabel("Usuarios"));
